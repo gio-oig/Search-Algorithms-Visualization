@@ -1,0 +1,29 @@
+#start {
+	cursor: pointer;
+}
+.controller-container {
+	height: 50px;
+	padding: 0 20px;
+	display: flex;
+	align-items: center;
+	background-color: #40514e;
+	color: #e4f9f5;
+}
+
+.gap {
+	width: 3px;
+	border-radius: 5px;
+	height: 100%;
+	background-color: #e4f9f5;
+	margin: 0 20px;
+}
+
+.algorithmButton {
+	margin: 10px;
+	cursor: pointer;
+}
+
+.disabled {
+	pointer-events: none;
+	color: red;
+}

@@ -1,0 +1,14 @@
+.visualizator-container {
+	height: 100%;
+	width: 100%;
+	background-color: rgb(230, 230, 230);
+	/* text-align: center; */
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.element {
+	/* display: inline-block; */
+	margin-left: 2px;
+}
