@@ -1,6 +1,6 @@
 # WEBSITE
 
-# Getting Started with Create React App (https://gio-oig.github.io/Search-Algorithms-Visualization/)
+(https://gio-oig.github.io/Search-Algorithms-Visualization/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
