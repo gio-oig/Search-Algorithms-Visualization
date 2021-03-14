@@ -7,6 +7,7 @@ import { setRunning } from '../../redusers/isRunning';
 
 import './controller.css';
 import { setCurrentSorted } from '../../redusers/sorted';
+import { mergeSort } from '../../algorithms/mergeSort';
 
 const Controller = ({
 	generateArray,
@@ -56,13 +57,22 @@ const Controller = ({
 				onChange={(e) => handleSpeedAndSizeChange(e)}
 			></input>
 			<div className="gap"></div>
-			<div className="algorithmButton" onClick={() => handleClick('mergeSort')}>
+			<div
+				className="algorithmButton disabled"
+				onClick={() => handleClick('mergeSort')}
+			>
 				Merge Sort
 			</div>
-			<div className="algorithmButton" onClick={() => handleClick('quickSort')}>
+			<div
+				className="algorithmButton disabled"
+				onClick={() => handleClick('quickSort')}
+			>
 				Quick Sort
 			</div>
-			<div className="algorithmButton" onClick={() => handleClick('heapSort')}>
+			<div
+				className="algorithmButton disabled"
+				onClick={() => handleClick('heapSort')}
+			>
 				Heap Sort
 			</div>
 			<div
@@ -97,7 +107,12 @@ const mapDispatchToProps = (dispatch) => ({
 		dispatch(setAlgorithm(algotirhm));
 	},
 	sort: (algorithm, array, speed) => {
-		let doSort = algorithm === 'bubbleSort' ? bubbleSort : null;
+		let doSort =
+			algorithm === 'bubbleSort'
+				? bubbleSort
+				: algorithm === 'mergeSort'
+				? mergeSort
+				: null;
 
 		dispatch(setCurrentSorted([]));
 		dispatch(setRunning(true));
