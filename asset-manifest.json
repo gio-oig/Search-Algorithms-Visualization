@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Search-Algorithms-Visualization/static/css/main.26a73283.chunk.css",
-    "main.js": "/Search-Algorithms-Visualization/static/js/main.069849b8.chunk.js",
-    "main.js.map": "/Search-Algorithms-Visualization/static/js/main.069849b8.chunk.js.map",
+    "main.css": "/Search-Algorithms-Visualization/static/css/main.c48f5503.chunk.css",
+    "main.js": "/Search-Algorithms-Visualization/static/js/main.20b70e00.chunk.js",
+    "main.js.map": "/Search-Algorithms-Visualization/static/js/main.20b70e00.chunk.js.map",
     "runtime-main.js": "/Search-Algorithms-Visualization/static/js/runtime-main.5caeb19b.js",
     "runtime-main.js.map": "/Search-Algorithms-Visualization/static/js/runtime-main.5caeb19b.js.map",
-    "static/js/2.bfba2e63.chunk.js": "/Search-Algorithms-Visualization/static/js/2.bfba2e63.chunk.js",
-    "static/js/2.bfba2e63.chunk.js.map": "/Search-Algorithms-Visualization/static/js/2.bfba2e63.chunk.js.map",
+    "static/js/2.5d9ad19c.chunk.js": "/Search-Algorithms-Visualization/static/js/2.5d9ad19c.chunk.js",
+    "static/js/2.5d9ad19c.chunk.js.map": "/Search-Algorithms-Visualization/static/js/2.5d9ad19c.chunk.js.map",
     "index.html": "/Search-Algorithms-Visualization/index.html",
-    "static/css/main.26a73283.chunk.css.map": "/Search-Algorithms-Visualization/static/css/main.26a73283.chunk.css.map",
-    "static/js/2.bfba2e63.chunk.js.LICENSE.txt": "/Search-Algorithms-Visualization/static/js/2.bfba2e63.chunk.js.LICENSE.txt"
+    "static/css/main.c48f5503.chunk.css.map": "/Search-Algorithms-Visualization/static/css/main.c48f5503.chunk.css.map",
+    "static/js/2.5d9ad19c.chunk.js.LICENSE.txt": "/Search-Algorithms-Visualization/static/js/2.5d9ad19c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5caeb19b.js",
-    "static/js/2.bfba2e63.chunk.js",
-    "static/css/main.26a73283.chunk.css",
-    "static/js/main.069849b8.chunk.js"
+    "static/js/2.5d9ad19c.chunk.js",
+    "static/css/main.c48f5503.chunk.css",
+    "static/js/main.20b70e00.chunk.js"
   ]
 }
